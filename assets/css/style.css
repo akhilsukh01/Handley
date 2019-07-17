@@ -1,27 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap');
+
 body {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   align-self: center;
 }
 
-#priceContainer{
-  margin-top: 30px;
+/* #aboutContainer{
+  margin: auto;
 }
 
 #contactContainer{
   margin: auto;
-  margin-top: 30px;
+}
 
+#priceContainer{
+  margin: auto;
+}
+
+#serviceContainer{
+  margin: auto;
+} */
+
+.headerBox h4{
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.headerTitle{
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 600;
 }
 
 .outlineBox{
-  box-shadow: inset 0 0 0 2px #000000;
-  padding: 20px;
+  box-shadow: inset 0 0 0 3px #000000;
+  padding: 25px;
+  margin: 30px auto;
 }
 
 .btn.btn-dark.btn-block.btn-primary{
