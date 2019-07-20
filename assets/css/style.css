@@ -34,13 +34,14 @@ body {
 .headerTitle{
   font-size: 30px;
   padding: 10px;
+  padding-top: 10px;
   font-weight: 600;
 }
 
 .outlineBox{
   box-shadow: inset 0 0 0 3px #000000;
   border-radius: 5px;
-  padding: 15px;
+  padding: 25px;
   margin: 30px auto;
 }
 
