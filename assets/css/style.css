@@ -43,6 +43,7 @@ body {
   border-radius: 5px;
   padding: 25px;
   margin: 30px auto;
+  max-width: 95%;
 }
 
 .btn.btn-dark.btn-block.btn-primary{
