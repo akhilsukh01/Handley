@@ -2,20 +2,40 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap');
 
+head {
+  background-color: #333942;
+}
+
 body {
   padding: 0px;
   margin: 0px;
   text-align: center;
   font-family: 'IBM Plex Sans', sans-serif;
   align-self: center;
+  background-color: #333942;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+p {
+  color: whitesmoke;
+}
+
+h6 {
+  color: whitesmoke;
 }
 
 .headerBox h4{
+  color: whitesmoke;
   font-weight: 700;
   padding-top: 15px;
+
 }
 
 .headerTitle{
+  color: whitesmoke;
   font-size: 30px;
   padding: 10px;
   padding-top: 10px;
@@ -23,7 +43,7 @@ body {
 }
 
 .outlineBox{
-  box-shadow: inset 0 0 0 2px #000000;
+  box-shadow: inset 0 0 0 2px whitesmoke;
   border-radius: 4px;
   padding: 25px;
   margin: 30px auto;
