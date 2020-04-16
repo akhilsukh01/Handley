@@ -3,7 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap');
 
 head {
-  background-color: #333942;
+  background-color: #242424;
+}
+
+.navbar {
+  background-color: #0b0b0c;
 }
 
 body {
@@ -12,7 +16,7 @@ body {
   text-align: center;
   font-family: 'IBM Plex Sans', sans-serif;
   align-self: center;
-  background-color: #333942;
+  background-color: #111111;
 }
 
 h2 {
